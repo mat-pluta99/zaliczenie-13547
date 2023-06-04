@@ -15,20 +15,21 @@ Spodziewany efekt: gra kończy się otrzymaniem wyniku Rezultat: gra kończy si�
 
 Test integracyjny A:
 
-Zainicjowanie talii
-Zainicjowanie gracza
-Gracz dobiera kartę
+1. Zainicjowanie talii
+2. Zainicjowanie gracza
+3. Gracz dobiera kartę
 Spodziewany efekt: talia kart zostaje zmniejszona o 1, czyli wynosi 51 Rezultat: Otrzymujemy błąd o nieprawidłowej ilość kart w talii
 
 Test integracyjny B:
 
-Zainicjowanie gracza
-Zainicjowanie dealera
-Zainicjowanie talii
-Gracz dobiera kartę
-Dealer dobiera kartę
-Gracz dobiera kartę
-Porównanie ilości kart gracza i dealera
-Spodziewany rezultat: gracz ma większą ilość kart Rezultat: gracz ma większą ilość kart
+1. Zainicjowanie gracza
+2. Zainicjowanie dealera
+3. Zainicjowanie talii
+4. Gracz dobiera kartę
+5. Dealer dobiera kartę
+6. Gracz dobiera kartę
+7. Porównanie ilości kart gracza i dealera
+Spodziewany rezultat: gracz ma większą ilość kart 
+Rezultat: gracz ma większą ilość kart
 
 Niestety, nie udało mi się wykonać testu akceptacji ze względu na problemy dotyczące wykrywania dodatkowych bibliotek przez interpreter
